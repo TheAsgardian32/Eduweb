@@ -1,12 +1,12 @@
 ## Instructions for running the application :
 
-> Open project folder in any IDE (Recommeded: VS Code)
-> Open terminal and type
+1. Open project folder in any IDE (Recommeded: VS Code)
+2. Open terminal and type
     ```
     $ npm install
     ```
-   > (Installs all packages that are saved as dependencies inside package.json file)
-> And type the below command in the terminal to start the client
+   (Installs all packages that are saved as dependencies inside package.json file)
+3. And type the below command in the terminal to start the client
     ```
     $ npm run dev
     ```
