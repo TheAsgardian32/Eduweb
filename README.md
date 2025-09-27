@@ -12,7 +12,7 @@
     ```
 
 
-Design Choices for the Application
+### Design Choices for the Application
 
 - Modern Tech Stack: Built with React and leading frameworks, ensuring a clean, scalable, and maintainable codebase. Integrated Framer Motion for smooth, engaging animations.
 
