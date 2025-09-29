@@ -1,6 +1,6 @@
 
 import {motion} from "framer-motion"
-import contactimg from "..assets/contactus.png"
+import contactimg from "../assets/contactus.png"
 const Contact = () => {
 
     return (
