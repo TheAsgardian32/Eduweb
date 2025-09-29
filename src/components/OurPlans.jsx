@@ -33,15 +33,15 @@ const OurPlans = () => {
 
     return (
         <section
-            id="plans" className='py-10 px-5 lg:px-0 lg:py-20 bg-gray-800' >
-            <div className='text-center max-w-5xl mx-auto'>
+            id="plans" className='py-10 px-5 lg:px-0 lg:py-20 bg-gray-800 my-1 mx-1' >
+            <div className='text-center max-w-5xl lg:max-w-7xl mx-auto'>
                 <h1 className='text-3xl lg:text-4xl font-bold text-red-500'>Our Plans</h1>
                 <motion.p
                     initial={{ x: -100, opacity: 0 }}
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
                     className='lg:text-xl text-sm pt-2 text-white'>Check out our most popular and customised Plans.</motion.p>
-                <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 gap-7'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 gap-7 my-1'>
                     {
                         cards.map((item) => {
                             return <Card key={item.id} cards={item} />
