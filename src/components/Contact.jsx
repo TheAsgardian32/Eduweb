@@ -25,7 +25,7 @@ const Contact = () => {
                             }
                         }}
 
-                        src="src/assets/contactus.png" alt="contact-us" width={500} className='lg:ml-[200px] lg:mt-[50px]' />
+                        src={contactimg} alt="contact-us" width={500} className='lg:ml-[200px] lg:mt-[50px]' />
                     <form action="#" className="lg:mx-auto mt-16 max-w-xl sm:mt-20 bg-orange-50 p-8 rounded-lg mx-4 ">
                         <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                             <div>
