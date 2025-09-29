@@ -34,7 +34,7 @@ const OurPlans = () => {
     return (
         <section
             id="plans" className='py-10 px-5 lg:px-0 lg:py-20 bg-gray-800' >
-            <div className='text-center max-w-7xl mx-auto'>
+            <div className='text-center max-w-5xl mx-auto'>
                 <h1 className='text-3xl lg:text-4xl font-bold text-red-500'>Our Plans</h1>
                 <motion.p
                     initial={{ x: -100, opacity: 0 }}
