@@ -41,7 +41,7 @@ const OurPlans = () => {
                     whileInView={{ x: 0, opacity: 1 }}
                     transition={{ duration: 1 }}
                     className='lg:text-xl text-sm pt-2 text-white'>Check out our most popular and customised Plans.</motion.p>
-                <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 gap-7 my-1'>
+                <div className='grid grid-cols-1 lg:grid-cols-3 pt-11 gap-7 my-1 mx-1'>
                     {
                         cards.map((item) => {
                             return <Card key={item.id} cards={item} />
