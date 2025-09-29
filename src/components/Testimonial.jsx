@@ -29,7 +29,7 @@ const Testimonial = () => {
   return (
     <div id="testimonials" className='py-10 '>
       <h1 className='text-center text-3xl lg:text-4xl font-bold'>What Our Students Say</h1>
-      <div className=' max-w-6xl mx-auto py-10 px-3 flex flex-col gap-5 lg:flex lg:gap-3'>
+      <div className=' max-w-6xl mx-auto py-10 px-3 flex flex-col gap-5 lg:flex-row lg:gap-3'>
         {
           testimonials.map((item) => {
             return <div key={item.id}>
