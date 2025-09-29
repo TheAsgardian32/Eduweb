@@ -1,7 +1,7 @@
 import star from "../assets/star.png"
 import starOutline from "../assets/star-outline.png"
 import time from "../assets/time.png"
-import heroimg from "../assets/pngegg (1).png
+import heroimg from "../assets/pngegg (1).png"
 import { motion } from "framer-motion"
 
 const frleft = (delay) => ({
