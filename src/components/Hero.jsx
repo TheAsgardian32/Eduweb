@@ -25,7 +25,7 @@ const Hero = () => {
 
                     <h1 className='font-bold text-4xl lg:text-6xl tracking-normal mt-4 lg:mt-0'>
 
-                        <span className='text-red-500'>IELT</span><br></br> Made easy with our Customised Training Plans</h1>
+                        <span className='text-red-500'>IELTS</span><br></br> Made easy with our Customised Training Plans</h1>
                     <p className='text-sm text-gray-600 my-3'>We, at Fictional IELTS have an integrated way of teaching and that helps you to pursue the exam with atmost ease.</p>
                     <div className='flex gap-3'>
                         <button className='bg-red-500 px-3 py-2  rounded-lg text-white hover:bg-red-600 hover:scale-110 transition-all'>Join Now</button>
