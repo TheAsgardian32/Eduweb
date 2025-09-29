@@ -14,7 +14,7 @@ function Header() {
           <div href="/" className="text-primary  flex gap-1 items-center">
             <h1 className='text-yellow-500 font-bold text-xl '>
               Fictional
-              <span className="text-white font-semibold">IELTS</span>
+              <span className="text-white font-bold"> IELTS</span>
             </h1>
           </div>
           <div className='flex gap-8'>
