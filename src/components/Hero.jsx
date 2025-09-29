@@ -1,6 +1,7 @@
 import star from "../assets/star.png"
 import starOutline from "../assets/star-outline.png"
 import time from "../assets/time.png"
+import heroimg from "../assets/pngegg(1).png
 import { motion } from "framer-motion"
 
 const frleft = (delay) => ({
@@ -33,7 +34,7 @@ const Hero = () => {
 
                 </motion.div>
                 <div className='lg:w-1/2 w-[275px]  relative'>
-                    <img src="src/assets/pngegg (1).png" alt="food" className=' mx-auto spin' />
+                    <img src={heroimg} alt="food" className=' mx-auto spin' />
                     <div variant="outline" className='bg-red-50 gap-1 text-lg flex border-red-200 border  items-center absolute bottom-16  lg:right-14 px-4 py-2 rounded-full'>
                         <img src={time} alt='time' className='lg:w-12 lg:h-12 w-6' />
                         <p className='leading-4 text-sm font-semibold'>Timely Module<br /> Completion</p>
